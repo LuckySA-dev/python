@@ -1,0 +1,40 @@
+Car Rent System — Summary Report (Sample)
+Generated At : 2025-08-29 16:04:05 (+0700)
+App Version  : 1.0
+Endianness   : Little-Endean
+Encoding     : UTF-8 (fixed-length)
+
+---------------------------------------------------------------------------
+| CarID | Plate | Brand | Model | Year | Rate (THB/day) | Status | Rented |
+---------------------------------------------------------------------------
+| 1001 | ABC-1234 | Toyota  | Camry   | 2021 |       1500.00 | Active  | No  |
+| 1002 | BCD-2345 | Honda   | Civic   | 2020 |       1200.00 | Active  | Yes |
+| 1003 | CDE-3456 | Nissan  | Almera  | 2019 |        900.00 | Active  | No  |
+| 1004 | DEF-4567 | Mazda   | 2       | 2022 |       1300.00 | Active  | No  |
+| 1005 | EFG-5678 | Toyota  | Fortuner | 2021 |       2500.00 | Active  | Yes |
+| 1006 | FGH-6789 | BMW     | 530e    | 2023 |       3000.00 | Active  | Yes |
+| 1007 | GHI-7890 | Toyota  | Yaris   | 2018 |       1100.00 | Active  | No  |
+| 1008 | HIJ-8901 | Honda   | Accord  | 2022 |       2400.00 | Active  | No  |
+| 1009 | IJK-9012 | Mercedes | C300    | 2021 |       2900.00 | Active  | No  |
+| 1010 | JKL-0123 | Nissan  | March   | 2017 |        800.00 | Deleted | No  |
+---------------------------------------------------------------------------
+
+Summary (นับเฉพาะสถานะ Active)
+- Total Cars (records) : 10
+- Active Cars          : 9
+- Deleted Cars         : 1
+- Currently Rented     : 3
+- Available Now        : 6
+
+Rate Statistics (THB/day, Active only)
+- Min : 900.00
+- Max : 3000.00
+- Avg : 1866.67
+
+Cars by Brand (Active only)
+- BMW : 1
+- Honda : 2
+- Mazda : 1
+- Mercedes : 1
+- Nissan : 1
+- Toyota : 3
